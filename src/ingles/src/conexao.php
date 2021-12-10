@@ -5,6 +5,8 @@ $servidor = "localhost";
 // O nome do usuário para se conectar.
 $usuario = "ayoike";
 // A senha do usuário acima para se conectar.
+
+//$senha = "1234567";
 $senha = "Figure.09";
 // O nome do seu banco de dados.
 $banco = "db_stayoike";
