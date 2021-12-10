@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
     checkbox.addEventListener('change', function () {
       if (checkbox.checked) {
         // do this
-        location.href = 'index.php'
+        location.href = 'http://localhost/mod/Ayoike/AyoikePHP/src/index.php'
       } else {
         // do that
-        location.href = 'index.php'
+        location.href = 'http://localhost/mod/Ayoike/AyoikePHP/src/ingles/src/ayoikeingles.php'
       }
     });
   });
