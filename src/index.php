@@ -2,20 +2,11 @@
 <html lang="pt-br">
 
 <head>
-  <!--
-          bloquinho de reclamações
-- projeto não aparece com a div do flyer e vice-versa
-- fale conosco tá doidão de vez
-- navbar funciona quando quer e as letras tão muito piticas pro meu astigmatismo
-- a imagem do começo não aparece com o texto do começo e vice-versa
-- obs: o coiso de conexão é sobre o php, fica tranquila que eu vou mexer nessa parte de inserir os dados no banco
-é isso 🥰 desde as 11h20 mexendo aqui
-
-   -->
+  
   <meta charset="utf-8">
   <title>Ayoike</title>
-  <link href="./src/style.css" rel="stylesheet" type="text/css">
-  <script src='./src/script.js' type='text/javascript'></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src='script.js' type='text/javascript'></script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- bootstrap -->
@@ -31,9 +22,9 @@
 
 <body>
 
-<?php
-include 'conexao.php';
-?>
+  <?php
+  include 'conexao.php';
+  ?>
   <!-- -->
   <nav id="navbar" class="navbar navbar-expand-sm">
     <div class="container-fluid">
@@ -41,9 +32,9 @@ include 'conexao.php';
 
 
       <div class=" collapse navbar-collapse">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          
-          <li style="margin-left: 400px;"><a href="#home">Home </a></li>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
+
+          <li style="margin-left: 500px;"><a href="#home">Home </a></li>
 
           <li class="mx-2 nav-item"><a href="#ayoike">A AyoiIke</a></li>
           <li class="mx-2 nav-item"><a href="#projetos">Projetos</a></li>
@@ -51,41 +42,42 @@ include 'conexao.php';
 
         </ul>
 
-
-
-        <div class="form-check form-switch" style="margin-top: 2px;;">
-          <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-          <label class="form-check-label" for="flexSwitchCheckChecked"></label>
-
-        </div>
-
+        
+<img src="./img/brpt.svg">
+        <label class="switch">
+  <input type="checkbox">
+  <div class="slider"></div>
+</label>
+          
+<img src="./img/en.svg">
       </div>
     </div>
 
-    </div>
-    </div>
   </nav>
   <img src="./img/wave1.png" style="width:100%;" id="home">
-  <img src="./img/uniao.svg">
-  <p style="text-align: center; width: 744px;">AyoIke é fruto de trabalho em equipe com total responsabilidade, luta, liberdade, criatividade e segurança.
+  <div style="float: left;"><img src="./img/uniao.svg"></div>
+
+  <p style="text-align:center; width: 744px;">AyoIke é fruto de trabalho em equipe com total responsabilidade, luta, liberdade, criatividade e segurança.
     Com projetos incríveis e missões que impulsionam sucesso e protagonismo!</p>
 
   <!-- A AYOIKE-->
   <img src="./img/wave2.png" style="width:100%;">
   <img src="./img/ayoike.svg" style="width:100%;" id="ayoike">
   <h2 style="text-align: center;">Nosso Time</h2>
-  <img src="./img/FOTO EM GRUPO TCM 1.png" style="width:100%;">
+  <img src="./img/FOTO EM GRUPO TCM.jpg" style="width:100%;">
   <img src="./img/wave3.png" style="width:100%;">
+
+  <!-- PROJETOS-->
   <h2 style="text-align: center;" id="projetos">Projetos</h2>
+
   <br />
   <br />
 
-  <!-- PROJETOS-->
-  <div>
-    <div class="flamboyant" style="position: fixed; width: 650px; text-align:right;">
-      <img src="./img/Flyer Restaurante 2.png">
-    </div>
-    <article style="margin-left: 45%; margin-bottom:30%;width:440px;">
+  <div class="flamboyant">
+    <img src="./img/Flyer Restaurante 2.png">
+  </div>
+  <div style="float:right;width:440px; margin-bottom:30%">
+    <article>
       <h2 style="font-weight: bold;">Restaurante Flamboyant</h2>
       <section>
         <h3>Restaurante</h3>
@@ -107,47 +99,57 @@ include 'conexao.php';
         O sistema conta com cadastro e consulta de clientes e produtos, além de delivery e foi desenvolvido em C#.
       </section>
     </article>
+
   </div>
-
-
 
   <img src="./img/wave2.png" style="width:100%;">
   <br />
   <br />
   <br />
+
   <!-- Contato-->
   <h2>Fale conosco!</h2>
-
-  <div id="contato"  class="container-fluid">
+  <img src="./img/contato.svg">
+  <div id="contato" class="container-fluid">
     <div class="row">
-     
-      <form method="post" action="mandarmensagem.php" name="logon">
-     
-				
-        <label for="txtnome">Qual seu nome?</label>
-        <input name="txtnome" type="text" class="form-control input" required id="nome">
-     		
-      
-      
-  
-        <label  for="txtemail">Seu melhor e-mail:</label>
-        <input name="txtemail" type="email" class="form-control" required id="email">
-      
-    
 
-    
+      <form method="post" action="mandarmensagem.php" name="logon">
+
+        <br />
+        <br />
+        <br />
+
+        <label for="txtnome">Qual seu nome?</label>
+        <input name="txtnome" type="text" class="form-control input" required id="nome" style="border: 1px solid #000000;box-shadow: -4px 4px 0px #000000;">
+
+
+        <br />
+        <br />
+
+        <label for="txtemail">Seu melhor e-mail:</label>
+        <input name="txtemail" type="email" class="form-control" required id="email" style="border: 1px solid #000000;
+box-shadow: -4px 4px 0px #000000;">
+
+
+        <br />
+        <br />
         <label for="txtmensagem">Nos conte algo! (Digite sua mensagem)</label>
         <textarea rows="5" name="txtmensagem" type="text" class="form-control" required id="mensagem"></textarea>
 
         <button type="submit" class="btn btn-custom">Enviar</button>
       </form>
-      
+
     </div>
   </div>
 
- <footer style="background-color: #001C55; color:#FFF;">
+  <footer style="background-color: #001C55; color:#FFF;">
     <h3 style="font-style:italic;">Social</h3>
-    <p style="text-align: right;">@ Copyright - All rights reserved. </p> <br /> <br /> <br />
+    <p>
+      <a href="https://www.linkedin.com/in/ayoike-tecnologia-b2104a214" target="_blank"><img src="./img/linkedin.svg"></a>
+      <a href="https://github.com/projetotcm"target="_blank"><img src="./img/githubo.svg"></a>
+      <a href="https://www.instagram.com/ayoikeoficial/" target="_blank"><img src="./img/instagram.svg"></a>
+      <a href="https://www.facebook.com/Ayoike-101002268858420/?ref=pages_you_manage"target="_blank"><img src="./img/facebook.svg"></a>
+    <p style="text-align: right;">@ Copyright - All rights reserved. </p>
   </footer>
 
 

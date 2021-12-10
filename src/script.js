@@ -1,3 +1,4 @@
+//scroll do navbar
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -8,4 +9,18 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-//scroll do navbar
+
+//inglês-português
+document.addEventListener('DOMContentLoaded', function () {
+    var checkbox = document.querySelector('input[type="checkbox"]');
+  
+    checkbox.addEventListener('change', function () {
+      if (checkbox.checked) {
+        // do this
+        location.href = './ingles/src/ayoikeingles.php'
+      } else {
+        // do that
+        location.href = 'index.php'
+      }
+    });
+  });
