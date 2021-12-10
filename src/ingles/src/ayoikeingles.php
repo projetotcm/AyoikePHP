@@ -181,7 +181,6 @@ box-shadow: -4px 4px 0px #000000;"></textarea>
       <a href="https://www.linkedin.com/in/ayoike-tecnologia-b2104a214" target="_blank"><img src="./img/linkedin.svg"></a>
       <a href="https://github.com/projetotcm"target="_blank"><img src="./img/githubo.svg"></a>
       <a href="https://www.instagram.com/ayoikeoficial/" target="_blank"><img src="./img/instagram.svg"></a> 
-    
       <a href="https://www.facebook.com/Ayoike-101002268858420/?ref=pages_you_manage"target="_blank"><img src="./img/facebook.svg"></a>
     <p style="text-align: right;">@ Copyright - All rights reserved. </p>
   </footer>
