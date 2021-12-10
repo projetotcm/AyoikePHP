@@ -9,15 +9,15 @@
     border-radius: 30px;
     color: #FFF;
    font-weight: 800;
-   float: right;  
+ 
   
   }
   /*DIV DO FLYER*/
-  .flamboyant
+  #flamboyant
 {
 
   position: static;
-  width: 503px;
+  width: 573px;
   height: 720px;
   left: 81px;
   top: 3619px;
@@ -25,8 +25,9 @@
 background: #FBFBFB;
 box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.4);
 border-radius: 30px;
+justify-content: center;
+float: left;
 }
-
   /*NAVBAR*/
 .navbar
 {
@@ -71,7 +72,8 @@ p, section
   height: 34px;
 }
 
-.switch input {display:none;}
+.switch input {display:none; border-radius: 30px;
+}
 
 .slider {
   position: absolute;
@@ -97,6 +99,8 @@ p, section
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
+  border-radius: 30px;
+
 }
 
 input:checked + .slider {
@@ -118,7 +122,12 @@ input:checked + .slider:before {
   border-radius: 30px;
 
 }
-
+/*h2*/
+.titulo
+{
+  font-family: Gurajada;
+  font-size: 80px;
+}
 /*FONTS*/
 @font-face {
   font-family: "Gurajada";
@@ -134,4 +143,24 @@ textarea
 
   border: 1px solid #000000;
 box-shadow: -4px 4px 0px #000000;
+}
+/**/
+
+#inicio
+{
+  position: absolute;
+  width: 744px;
+  height: 152px;
+  left: calc(50% - 744px/2);
+  top: 658px;
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  
+  color: #000000;
+  
 }
