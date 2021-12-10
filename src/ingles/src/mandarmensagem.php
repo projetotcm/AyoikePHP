@@ -14,4 +14,4 @@ values('$nome','$email','$mensagem')");
 
 
 ?>
-<script>location.href = 'index.php'</script>
+<script>location.href = 'http://localhost/mod/Ayoike/AyoikePHP/src/ingles/src/ayoikeingles.php#home'</script>
