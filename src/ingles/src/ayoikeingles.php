@@ -22,9 +22,6 @@
 
 <body>
 
-  <?php
-  include 'conexao.php';
-  ?>
   <!-- -->
   <nav id="navbar" class="navbar navbar-expand-sm">
     <div class="container-fluid">
@@ -36,15 +33,16 @@
 
           <li style="margin-left: 500px;"><a href="#home">Home </a></li>
 
-          <li class="mx-2 nav-item"><a href="#ayoike">A AyoiIke</a></li>
-          <li class="mx-2 nav-item"><a href="#projetos">Projetos</a></li>
-          <li class="mx-2 nav-item"><a href="#contato">Contato</a></li>
+          <li class="mx-2 nav-item"><a href="#ayoike">The AyoiIke</a></li>
+          <li class="mx-2 nav-item"><a href="#projetos">Projects</a></li>
+          <li class="mx-2 nav-item"><a href="#contato">Contact</a></li>
 
         </ul>
 
         
 <img src="./img/brpt.svg">
-        <label class="switch">
+
+            <label class="switch">
   <input type="checkbox">
   <div class="slider"></div>
 </label>
@@ -57,46 +55,45 @@
   <img src="./img/wave1.png" style="width:100%;" id="home">
   <div style="float: left;"><img src="./img/uniao.svg"></div>
 
-  <p style="text-align:center; width: 744px;">AyoIke é fruto de trabalho em equipe com total responsabilidade, luta, liberdade, criatividade e segurança.
-    Com projetos incríveis e missões que impulsionam sucesso e protagonismo!</p>
+  <p style="text-align:center; width: 744px;">Ayoike is made of team work with total responsibility, strength, freedom, creativity and security. 
+With amazing projects and missions that impulse success and leadership!</p>
 
   <!-- A AYOIKE-->
   <img src="./img/wave2.png" style="width:100%;">
   <img src="./img/ayoike.svg" style="width:100%;" id="ayoike">
-  <h2 style="text-align: center;">Nosso Time</h2>
+  <h2 style="text-align: center;">Our Team</h2>
   <img src="./img/FOTO EM GRUPO TCM.jpg" style="width:100%;">
   <img src="./img/wave3.png" style="width:100%;">
 
   <!-- PROJETOS-->
-  <h2 style="text-align: center;" id="projetos">Projetos</h2>
+  <h2 style="text-align: center;" id="projetos">Projects</h2>
 
   <br />
   <br />
 
-  <div class="flamboyant">
+  <div class="flamboyant" style="width: 720px;">
     <img src="./img/Flyer Restaurante 2.png">
   </div>
   <div style="float:right;width:440px; margin-bottom:30%">
     <article>
       <h2 style="font-weight: bold;">Restaurante Flamboyant</h2>
       <section>
-        <h3>Restaurante</h3>
-        Flamboyant é um restaurante vegano criado com o intuito de promover uma
-        alimentação vegana saudável, responsável e acessível. Foi idealizado por
-        Wellington Cidade, um empreendedor que visitou as Ilhas de Madagascar e
-        se encantou com a vegetação do local, principalmente com uma árvore chamada Flamboyant.
+        <h3>The Restaurant</h3>
+            
+Flamboyant is a vegan restaurant created with the purpose of promoting a healthy, responsible and accesible vegan alimentation.
+It was idealized by Wellington City, an entrepeneur that visited the Madagadcar Island and fell in love with local vegetation, 
+mostly with a tree called Flamboyant.
       </section>
       <section>
-        <h3>Contato</h3>
-        Ele teve a ideia de reinventar o mercado alimentício de forma modernizada
-        e eficiente, entrando em contato com a nossa startup.
+        <h3>Contact</h3>
+        He had the idea of reinventing the food market in a modern and efficent way, 
+contacting our startup.
       </section>
       <section>
 
-        <h3>Sobre o Desenvolvimento</h3>
-        Nosso projeto baseou-se na melhoria do atendimento
-        e controle de pedidos de forma inteligente, tecnológica e ética.
-        O sistema conta com cadastro e consulta de clientes e produtos, além de delivery e foi desenvolvido em C#.
+        <h3>About the Development</h3>
+        Our project was based on the attendance upgrade and better order control in a smart, technologic and ethical way.
+The system counts with a clients and products registration and consult, besides the delivery. It was developed in C#. 
       </section>
     </article>
 
@@ -110,7 +107,7 @@
   <!-- Contato-->
   <h2>Fale conosco!</h2>
   <img src="./img/contato.svg">
-  <div id="contato" class="container-fluid">
+  <div id="contato" class="container-fluid" style="position:static;float:right; height:563px">
     <div class="row">
 
       <form method="post" action="mandarmensagem.php" name="logon">
@@ -119,24 +116,25 @@
         <br />
         <br />
 
-        <label for="txtnome">Qual seu nome?</label>
+        <label for="txtnome">What's your name?</label>
         <input name="txtnome" type="text" class="form-control input" required id="nome" style="border: 1px solid #000000;box-shadow: -4px 4px 0px #000000;">
 
 
         <br />
         <br />
 
-        <label for="txtemail">Seu melhor e-mail:</label>
+        <label for="txtemail">Your best e-mail</label>
         <input name="txtemail" type="email" class="form-control" required id="email" style="border: 1px solid #000000;
 box-shadow: -4px 4px 0px #000000;">
 
 
         <br />
         <br />
-        <label for="txtmensagem">Nos conte algo! (Digite sua mensagem)</label>
-        <textarea rows="5" name="txtmensagem" type="text" class="form-control" required id="mensagem"></textarea>
+        <label for="txtmensagem">Tell us something! (Type your message)</label>
+        <textarea rows="5" name="txtmensagem" type="text" class="form-control" required id="mensagem" style="border: 1px solid #000000;
+box-shadow: -4px 4px 0px #000000;"></textarea>
 
-        <button type="submit" class="btn btn-custom">Enviar</button>
+        <button type="submit" class="btn btn-custom">Send</button>
       </form>
 
     </div>

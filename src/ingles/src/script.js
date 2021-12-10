@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     checkbox.addEventListener('change', function () {
       if (checkbox.checked) {
         // do this
-        location.href = './ingles/src/ayoikeingles.php'
+        location.href = 'index.php'
       } else {
         // do that
         location.href = 'index.php'
