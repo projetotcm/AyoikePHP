@@ -55,9 +55,9 @@
 
   </nav>
   <img src="./img/wave1.png" style="width:100%; top:5px" id="home">
-  <div style="float: left;"><img src="./img/uniao.svg"></div>
+  <div><img src="./img/uniao.svg"></div>
 
-  <p style="text-align:center; width: 744px;">AyoIke é fruto de trabalho em equipe com total responsabilidade, luta, liberdade, criatividade e segurança.
+  <p style="text-align:center; width: 744px;margin-left: 150px;padding-left: 150px;padding-bottom:100px;">AyoIke é fruto de trabalho em equipe com total responsabilidade, luta, liberdade, criatividade e segurança.
     Com projetos incríveis e missões que impulsionam sucesso e protagonismo!</p>
 
   <!-- A AYOIKE-->
