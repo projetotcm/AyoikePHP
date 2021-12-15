@@ -61,12 +61,14 @@ FALTA: alinhar as divs e responsividade e pronto uhuuu !>
     </div>
 
   </nav>
-  <img src="./img/wave1.png" style="width:100%; top:5px" id="home">
-  <div><img src="./img/uniao.svg"></div>
+  <div class="imagem" id="home">
+  <img src="./img/uniao.svg" style="margin-top:8rem">
+  </div>
+  
 
-  <p style="text-align:center; width: 744px;margin-left: 150px;padding-left: 150px;padding-bottom:100px;">AyoIke é fruto de trabalho em equipe com total responsabilidade, luta, liberdade, criatividade e segurança.
+ <div style="display: flex; justify-content:center"> <p style="text-align:center; width: 744px;padding: 20px 20px;">AyoIke é fruto de trabalho em equipe com total responsabilidade, luta, liberdade, criatividade e segurança.
     Com projetos incríveis e missões que impulsionam sucesso e protagonismo!</p>
-
+ </div>
   <!-- A AYOIKE-->
   <img src="./img/wave2.png" style="width:100%;">
   <img src="./img/ayoike.svg" style="width:100%;" id="ayoike">
@@ -87,7 +89,7 @@ FALTA: alinhar as divs e responsividade e pronto uhuuu !>
       <img src="./img/Flyer Restaurante 2.png">
       <img src="./img/Logo Restaurante Flamboyant (1) 1.svg">
     </div>
-    <div style="float:right;width:440px;">
+    <div  class="texto" >
       <article>
         <h2 style="font-weight: bold;">Restaurante Flamboyant</h2>
         <section>
@@ -123,8 +125,8 @@ FALTA: alinhar as divs e responsividade e pronto uhuuu !>
   <br />
   <br />
   <br />
-  <div style="float: left;"><img src="./img/contact.svg"></div>
-  <div id="contato" class="container-fluid">
+  <div style="float: left; margin-left:40px"><img src="./img/contact.svg"></div>
+  <div id="contato" class="container-fluid" style="margin-right:60px;">
     <div class="row">
 
       <form method="post" action="mandarmensagem.php" name="logon">
@@ -150,8 +152,7 @@ box-shadow: -4px 4px 0px #000000;">
         <label for="txtmensagem">Nos conte algo! (Digite sua mensagem)</label>
         <textarea rows="5" name="txtmensagem" type="text" class="form-control" required id="mensagem"></textarea>
 
-        <button type="submit" class="btn" style="border: 1px solid #000000;box-shadow: -4px 4px 0px #000000; float:right; background-color:#FFF
-">Enviar</button>
+        <button type="submit" class="btn" style="border: 1px solid #000000;box-shadow: -4px 4px 0px #000000; float:right; background-color:#FFF">Enviar</button>
       </form>
 
     </div>
