@@ -1,14 +1,18 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="author" content="Giovanna Alves (Gica) e Valentina Prado (Valen)" />
+<meta name="description" content="Site em PHP da Startup AyoIke - Projeto TCM 2ºMOD - ETEC BASILIDES" />
+
+
+<title>Ayoike 🇧🇷</title>
 
 <head>
-
-  <meta charset="utf-8">
-  <title>Ayoike 🇧🇷</title>
   <link href="style.css" rel="stylesheet" type="text/css">
   <script src='script.js' type='text/javascript'></script>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -33,7 +37,7 @@
 
       <div class=" collapse navbar-collapse">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
-        <a class="navbar-brand" href="#"><img src="./img/lgonavbar.svg"></a>
+          <a class="navbar-brand" href="#"><img src="./img/lgonavbar.svg"></a>
           <li style="margin-left: 500px;"><a href="#home">Home </a></li>
 
           <li class="mx-2 nav-item"><a href="#ayoike">A AyoiIke</a></li>
@@ -63,12 +67,12 @@
   <!-- A AYOIKE-->
   <img src="./img/wave2.png" style="width:100%;">
   <img src="./img/ayoike.svg" style="width:100%;" id="ayoike">
-  <h2 style="text-align: center;"class="titulo">Nosso Time</h2>
+  <h2 style="text-align: center;" class="titulo">Nosso Time</h2>
   <img src="./img/FOTO EM GRUPO TCM.jpg" style="width:100%;">
   <img src="./img/wave3.png" style="width:100%;">
 
   <!-- PROJETOS-->
-  <h2 style="text-align: center;" class="titulo"id="projetos">Projetos</h2>
+  <h2 style="text-align: center;" class="titulo" id="projetos">Projetos</h2>
 
   <br />
   <br />
@@ -149,7 +153,7 @@ box-shadow: -4px 4px 0px #000000;">
 
     </div>
   </div>
-   <!--gambiarra pra não ficar embaixo do footer -->
+  <!--gambiarra pra não ficar embaixo do footer -->
   <br />
   <br />
   <br />
@@ -179,11 +183,11 @@ box-shadow: -4px 4px 0px #000000;">
   <footer style="background-color: #001C55; color:#FFF;">
     <h3 style="font-style:italic;">Social</h3>
     <p>
-     
-    <a href="https://www.linkedin.com/in/ayoike-tecnologia-b2104a214" target="_blank"><img src="./img/linkedin.svg"></a>
-      <a href="https://github.com/projetotcm"target="_blank"><img src="./img/githubo.svg"></a>
-      <a href="https://www.instagram.com/ayoikeoficial/" target="_blank"><img src="./img/instagram.svg"></a> 
-      <a href="https://www.facebook.com/Ayoike-101002268858420/?ref=pages_you_manage"target="_blank"><img src="./img/facebook.svg"></a>
+
+      <a href="https://www.linkedin.com/in/ayoike-tecnologia-b2104a214" target="_blank"><img src="./img/linkedin.svg"></a>
+      <a href="https://github.com/projetotcm" target="_blank"><img src="./img/githubo.svg"></a>
+      <a href="https://www.instagram.com/ayoikeoficial/" target="_blank"><img src="./img/instagram.svg"></a>
+      <a href="https://www.facebook.com/Ayoike-101002268858420/?ref=pages_you_manage" target="_blank"><img src="./img/facebook.svg"></a>
     <p style="text-align: right;">@ Copyright - All rights reserved. </p>
   </footer>
 
