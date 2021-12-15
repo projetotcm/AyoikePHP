@@ -6,8 +6,8 @@ $servidor = "localhost";
 $usuario = "ayoike";
 // A senha doo usuário acima para se conectar.
 
-//$senha = "1234567";
-$senha = "Figure.09";
+$senha = "forcabrilhante";
+//$senha = "Figure.09";
 // O nome do seu banco de dados.
 $banco = "db_stayoike";
 $cn = new PDO("mysql:host=$servidor;dbname=$banco",
