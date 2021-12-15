@@ -9,6 +9,9 @@
 
 <title>Ayoike 🇧🇷</title>
 
+<!oiu gente, espero que dê tudo certo, vou tentar ajudar ao máximo mesmo que de longe
+O contato funciona, arrumei as fontes, nome dos arquivos e organizei as tags meta
+FALTA: alinhar as divs e responsividade e pronto uhuuu !>
 <head>
   <link href="style.css" rel="stylesheet" type="text/css">
   <script src='script.js' type='text/javascript'></script>
