@@ -3,7 +3,7 @@
 
 $servidor = "localhost";
 // O nome do usuário para se conectar.
-$usuario = "ayoike";
+$usuario = "db_stayoike";
 // A senha doo usuário acima para se conectar.
 
 $senha = "forcabrilhante";
