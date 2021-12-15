@@ -151,11 +151,11 @@ color: #000000;
 /*FONTS*/
 @font-face {
   font-family: "Gurajada";
-  src: url(/Fonts/Gurajada-Regular.ttf);
+  src: url(/fonts/Gurajada-Regular.ttf);
 }
 @font-face {
   font-family: "Inter";
-  src: url(/Fonts/Inter.ttf);
+  src: url(/fonts/Inter.ttf);
 }
 
 textarea
