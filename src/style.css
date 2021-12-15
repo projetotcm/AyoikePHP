@@ -55,7 +55,6 @@
 /* Style the navbar links */
 
 #navbar a {
-    float: left;
     display: block;
     color: black;
     text-align: center;
@@ -68,6 +67,20 @@
     color: #3634C7;
 }
 
+@media (max-width: 900px) {
+    .navbar-brand {
+        margin-right: 0 !important;
+    }
+
+    #navbar > .container-fluid {
+        display: flex;
+        justify-content: center;
+    }
+
+    #navbar > .container-fluid > .navbar-nav {
+        flex-direction: column !important;
+    }
+}
 
 /*FONTE DOS TEXTOS DO SITE*/
 
